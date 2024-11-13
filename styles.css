@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://png.pngtree.com/background/20210712/original/pngtree-cute-hand-drawn-style-math-education-blue-plaid-background-picture-image_1176978.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #ffffffce;
+}
+
+.calculator {
+    background-color: #ffffff00;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(74, 239, 33);
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    font-size: 2rem;
+    text-align: right;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #e48989;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.5rem;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.9s ease-in-out;
+}
+
+button:hover {
+    padding: 10px;
+    background-color: #dcac27;
+    transform: rotate(360deg);
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.calculator:hover {
+    background-color: #000000;
+}
